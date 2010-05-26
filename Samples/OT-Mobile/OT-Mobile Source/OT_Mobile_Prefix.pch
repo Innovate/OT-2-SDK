@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'OT Mobile' target in the 'OT Mobile' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
