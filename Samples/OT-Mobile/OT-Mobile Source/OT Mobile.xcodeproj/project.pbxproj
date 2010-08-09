@@ -514,7 +514,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CFA020C9-9050-47CD-AB16-DDA586580DA6";
-				SDKROOT = iphoneos2.2.1;
+				SDKROOT = iphoneos3.2;
 			};
 			name = Debug;
 		};
