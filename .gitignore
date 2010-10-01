@@ -1,4 +1,3 @@
-Build/
 debug/
 release/
 Debug/
@@ -6,4 +5,4 @@ Release/
 *.user
 *.suo
 *.ncb
-
+Samples/OT-Mobile/OT-Mobile Source/build/

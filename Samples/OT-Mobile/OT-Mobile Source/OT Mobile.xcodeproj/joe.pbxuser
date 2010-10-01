@@ -41,7 +41,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = D8077E9710C98B37000C8445 /* OT Mobile */;
-		activeSDKPreference = iphonesimulator3.0;
+		activeSDKPreference = iphonesimulator3.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* OT Mobile */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* OT Mobile */,
@@ -100,13 +100,13 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 292200299;
-			PBXWorkspaceStateSaveDate = 292200299;
+			PBXPerProjectTemplateStateSaveDate = 303007271;
+			PBXWorkspaceStateSaveDate = 303007271;
 		};
 		perUserProjectItems = {
 			D8C44E1C116A9F8D009AA512 /* PBXTextBookmark */ = D8C44E1C116A9F8D009AA512 /* PBXTextBookmark */;
-			D8C44E1D116A9F8D009AA512 /* PBXTextBookmark */ = D8C44E1D116A9F8D009AA512 /* PBXTextBookmark */;
-			D8C44E1E116A9F8D009AA512 /* PBXTextBookmark */ = D8C44E1E116A9F8D009AA512 /* PBXTextBookmark */;
+			D8C5A345120F878100A9C38F /* PBXTextBookmark */ = D8C5A345120F878100A9C38F /* PBXTextBookmark */;
+			D8C5A346120F878100A9C38F /* PBXTextBookmark */ = D8C5A346120F878100A9C38F /* PBXTextBookmark */;
 		};
 		sourceControlManager = D8077EB010C98B4E000C8445 /* Source Control */;
 		userBuildSettings = {
@@ -221,7 +221,7 @@
 	};
 	D8077EC610C98BB7000C8445 /* ot2.mm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {693, 18252}}";
+			sepNavIntBoundsRect = "{{0, 0}, {693, 18408}}";
 			sepNavSelRange = "{24830, 0}";
 			sepNavVisRange = "{24264, 846}";
 			sepNavWindowFrame = "{{232, 127}, {956, 718}}";
@@ -237,9 +237,9 @@
 	};
 	D871838110CAC53700742FF2 /* NetworkDiscovery.mm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {684, 1768}}";
-			sepNavSelRange = "{212, 42}";
-			sepNavVisRange = "{0, 862}";
+			sepNavIntBoundsRect = "{{0, 0}, {1023, 1794}}";
+			sepNavSelRange = "{139, 0}";
+			sepNavVisRange = "{0, 1266}";
 			sepNavWindowFrame = "{{186, 186}, {956, 718}}";
 		};
 	};
@@ -267,10 +267,10 @@
 		continueAfterActions = 0;
 		countType = 0;
 		delayBeforeContinue = 0;
-		hitCount = 1;
+		hitCount = 0;
 		ignoreCount = 0;
 		location = libSystem.B.dylib;
-		modificationTime = 283986626.876384;
+		modificationTime = 303007563.241657;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 		symbolName = malloc_error_break;
@@ -333,7 +333,7 @@
 		vrLen = 1021;
 		vrLoc = 5523;
 	};
-	D8C44E1D116A9F8D009AA512 /* PBXTextBookmark */ = {
+	D8C5A345120F878100A9C38F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = D8077EC610C98BB7000C8445 /* ot2.mm */;
 		name = "ot2.mm: 1225";
@@ -343,7 +343,7 @@
 		vrLen = 846;
 		vrLoc = 24264;
 	};
-	D8C44E1E116A9F8D009AA512 /* PBXTextBookmark */ = {
+	D8C5A346120F878100A9C38F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = D8077EC610C98BB7000C8445 /* ot2.mm */;
 		name = "ot2.mm: 1225";
