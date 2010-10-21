@@ -42,6 +42,36 @@
 }
 
 
+//- (void)applicationDidBecomeActive:(UIApplication *)application
+//{
+//	NSLog(@"applicationDidBecomeActive");
+//}
+
+- (void)applicationWillResignActive:(UIApplication *)application
+{
+	// Tell the current view we are going to die
+	[(LiveViewController *)(tabBarController.selectedViewController) viewDeselected];	
+	
+	// Kill the OT-2 engine
+	OT2 *ot2 = [OT2 instance];
+	[ot2 stop];
+}
+
+//- (void)applicationDidEnterBackground:(UIApplication *)application
+//{
+//	NSLog(@"applicationDidEnterBackground");
+//}
+
+- (void)applicationWillEnterForeground:(UIApplication *)application
+{
+	// Start the OT-2 engine
+	OT2 *ot2 = [OT2 instance];
+	[ot2 start];
+	
+	// Tell the current view to refresh state
+	[(LiveViewController *)(tabBarController.selectedViewController) viewSelected];		
+}
+
 // Called just before we exit, go ahead and kill our engine and free everything up.
 - (void)applicationWillTerminate:(UIApplication *)application {
 

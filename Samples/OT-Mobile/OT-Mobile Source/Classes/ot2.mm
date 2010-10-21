@@ -116,7 +116,10 @@ static OT2 *Ot2Instance = nil;	// Our only instance
 	}
 	
 	if (Ot2Instance)
+	{
 		[Ot2Instance release];
+		Ot2Instance = nil;
+	}
 }
 
 /*
@@ -1404,6 +1407,11 @@ typedef struct sockaddr SOCKADDR;
 		}
 	}
 	
+	if (Ot2Socket != INVALID_SOCKET)
+	{
+		close(Ot2Socket);
+		Ot2Socket = INVALID_SOCKET;
+	}
 	[pool release];
 }
 
