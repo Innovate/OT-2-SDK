@@ -231,8 +231,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -269,7 +267,6 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
-								<string>080E96DDFE201D6D7F000001</string>
 								<string>1C77FABC04509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
@@ -312,25 +309,13 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>D8077EA410C98B4E000C8445</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>OT_MobileAppDelegate.mm</string>
+								<string>&lt;No Editor&gt;</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
 										<string>D8077EA510C98B4E000C8445</string>
-										<key>PBXProjectModuleLabel</key>
-										<string>OT_MobileAppDelegate.mm</string>
-										<key>_historyCapacity</key>
-										<integer>0</integer>
-										<key>bookmark</key>
-										<string>D898A0501270050F00BB9D75</string>
-										<key>history</key>
-										<array>
-											<string>D8C44E1C116A9F8D009AA512</string>
-											<string>D898A033127003FE00BB9D75</string>
-											<string>D898A034127003FE00BB9D75</string>
-										</array>
 									</dict>
 									<key>SplitCount</key>
 									<string>1</string>
@@ -343,18 +328,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {754, 473}}</string>
+								<string>{{0, 0}, {754, 0}}</string>
 								<key>RubberWindowFrame</key>
 								<string>49 115 1011 663 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>473pt</string>
+							<string>0pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>144pt</string>
+							<string>617pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -368,7 +353,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {754, 117}}</string>
+										<string>{{10, 27}, {754, 122}}</string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -422,7 +407,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {754, 117}}</string>
+										<string>{{10, 27}, {754, 590}}</string>
 										<key>RubberWindowFrame</key>
 										<string>49 115 1011 663 0 0 1280 778 </string>
 									</dict>
@@ -452,11 +437,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>D898A036127003FE00BB9D75</string>
+				<string>D8C25A8112CD733D00725F8C</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>D898A037127003FE00BB9D75</string>
+				<string>D8C25A8212CD733D00725F8C</string>
 				<string>D8077EA410C98B4E000C8445</string>
-				<string>D898A038127003FE00BB9D75</string>
+				<string>D8C25A8312CD733D00725F8C</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -605,14 +590,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>D898A039127003FE00BB9D75</string>
+				<string>D8C25A8412CD733D00725F8C</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>D898A03A127003FE00BB9D75</string>
-				<string>D898A03B127003FE00BB9D75</string>
-				<string>D898A03C127003FE00BB9D75</string>
-				<string>D898A03D127003FE00BB9D75</string>
-				<string>D898A03E127003FE00BB9D75</string>
+				<string>D8C25A8512CD733D00725F8C</string>
+				<string>D8C25A8612CD733D00725F8C</string>
+				<string>D8C25A8712CD733D00725F8C</string>
+				<string>D8C25A8812CD733D00725F8C</string>
+				<string>D8C25A8912CD733D00725F8C</string>
 			</array>
 			<key>ToolbarConfigUserDefaultsMinorVersion</key>
 			<string>2</string>
@@ -646,8 +631,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>D898A040127003FE00BB9D75</string>
-		<string>D898A041127003FE00BB9D75</string>
+		<string>D8C25A9212CD739F00725F8C</string>
+		<string>D8C25A8B12CD733D00725F8C</string>
 		<string>/Users/joe/Src/OT-2-SDK/Samples/OT-Mobile/OT-Mobile Source/OT Mobile.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
